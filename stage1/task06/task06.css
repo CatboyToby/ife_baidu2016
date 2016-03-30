@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;font-size:12px;line-height:15px;font-weight: normal;}
+body{background:#CCC;}
+.wrap0{width:980px;
+       background:#FFF;
+	   margin:0 auto;}
+.wrap1{width:910px;
+       background:#FFF;
+	   margin:0 auto;}
+header{position:relative;
+       border-bottom:2px #666 solid;}
+header h6{width:120px;
+          height:60px;
+		  background:#FF60AF;
+          vertical-align:bottom;
+		  display:table-cell;/*不明原理*/
+          text-align:center;color:#FFF;}
+header h5{width:80px;
+          position:absolute;
+		  bottom:0;
+		  right:1px;
+		  color:#F30;}
+.a{padding-top:30px;}
+.a .left{position:relative;
+         width:639px;}
+.a .left .l{width:191px;
+            height:300px;
+			background:#0F0;
+			opacity:0.3;
+			position:absolute;
+			left:0;
+			top:0;}
+.a .left .r{width:191px;
+            height:300px;
+			background:#F00;
+			opacity:0.3;
+			position:absolute;
+			right:0;
+			top:0;}
+.a .right{width:203px;
+          float:right;
+		  border-top:2px #F90 solid;}
+.a .right strong{font-size:24px;
+                 line-height:40px;}
+.a .right span{font-size:15px;
+               letter-spacing:-1px;
+			   line-height:35px;
+			   border-bottom:1px #000 solid;}
+strong em{font-size:114px;
+          display:block;
+		  margin-top:40px;
+		  font-weight:100px;
+		  line-height:100px;
+		  color:#06F;}
+.a .right .t{font-size:30px;
+             color:#0F3;
+			 border-bottom:none;}
+.a .right .b{font-size:15px;
+             color:#9F0;
+			 border-bottom:none;}
+.b{padding-top:30px;
+   width:100%;
+   overflow:hidden;}
+.b ul{width:220px;
+      line-height:50px;
+	  float:left;
+	  list-style:none;
+	  margin-left:20px;}
+.b ul li{line-height:23px;}
+.b ul li span{font-size:20px;
+              color:#F30;
+			  text-style:underline;}
+.c{padding-top:30px;
+   width:100%;
+   overflow:hidden;
+   height:680px;
+   border-bottom:1px #666666 solid;}
+.c .right{width:458px;
+          float:right;}
+.c .right .rt{width:458px;
+              height:60px;
+			  opacity:0.4;
+			  position:absolute;
+			  bottom:0;
+			  background:#999;}
+.c .right .r_t{position:relative;}
+.c .right .rt span{font-size:26px;
+                   line-height:60px;
+				   color:#FFF;
+				   margin-left:40px;
+				   border-left:2px #00CCFF solid;
+				   padding-left:20px;}
+.c .right .r_b ul li pre{line-height:35px;
+                         font-size:15px;
+						 padding-left:40px;}
+.c .right .r_b ul{list-style:none;
+                  margin-top:30px;
+				  padding-top:30px;
+				  padding-bottom:40px;}
+.c .right .r_b .rbb{width:240px;
+                    height:140px;
+					background:#CE0000;
+					float:left;
+					margin-bottom:0;
+					opacity:0.7}
+.c .right .r_b{overflow:hidden;
+               background:#E0E0E0;
+			   margin-top:30px;}
+.c .right .r_b .rbb strong{font-size:75px;
+                           line-height:140px;
+						   padding-left:15px;
+						   color:#FFF;
+						   float:left}
+.c .right .r_b .rbb .le{float:left;
+                        width:140px;
+						height:80px;
+						border-left:4px #FFFFFF solid;
+						margin-top:30px;
+						position:relative;
+						margin-left:20px;}
+.c .right .r_b .rbb .le p{font-size:25px;
+                        position:absolute;
+						bottom:0;font-style:normal;
+						color:#FFF;
+						margin-left:3px;
+						text-indent:0;}
+.c .right .r_b p{font-style:italic;
+                 line-height:25px;
+				 text-indent:20px;
+				 padding-left:10px;}
+.c .left .l_t{width:420px;
+              border-bottom:2px #663300 solid;}
+.c .left .l_t strong{font-style:italic;
+                     font-size:75px;
+					 color:#FF0;
+					 line-height:100px;}
+.c .left .l_t span{font-size:39px;
+                   color:#333;
+				   line-height:45px;
+				   padding-left:5px;}
+.c .left .l_b p img{float:right;
+                    margin-top:10px;}
+.c .left .l_b{width:420px;
+              overflow:hidden;
+			  padding-top:30px;}
+.c .left .l_b p{font-size:14px;
+                line-height:19px;
+				padding:0;
+				text-indent:20px;}
+.c .left .l_b p span{font-size:75px;
+                     color:#FF0;
+					 float:left;
+					 margin:15px 5px 35px 10px;}
+footer{text-align:right;
+       height:80px;}
+footer p{color:#F0F;
+         line-height:30px;}
+
